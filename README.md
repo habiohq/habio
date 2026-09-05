@@ -73,7 +73,8 @@ Claude / ChatGPT / custom agent
 ```
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for component and repository boundaries,
-and [DESIGN.md](DESIGN.md) for the semantic model and design principles.
+[DESIGN.md](DESIGN.md) for the semantic model and design principles, and
+[docs/v0.1-scope.md](docs/v0.1-scope.md) for the executable acceptance matrix.
 
 ## Design principles
 
