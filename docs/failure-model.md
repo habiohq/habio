@@ -74,3 +74,8 @@ should drive that RFC.
 - Which timestamps are required to evaluate observation freshness?
 - How much provider-specific evidence can be retained without coupling core?
 - How does a caller explicitly record a recovery decision?
+
+RFC 0005 answers the storage direction for v0.1: retain immutable facts and
+derive current knowledge through replaceable projections. Contradictory facts
+remain in the log and cause the reference projection to expose an unknown,
+conflicted dimension rather than selecting a convenient certainty.
