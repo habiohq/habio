@@ -15,6 +15,10 @@ dispatch evidence. The required interface must remain minimal. Discovery,
 observation, cancellation, subscriptions, and capability reporting are not
 automatically Provider methods.
 
+For v0.1, the required contract is the single `Provider.Dispatch` method.
+`Resolver`, `Admitter`, `Observer`, and `Verifier` are independent interfaces;
+implementations advertise them through ordinary Go interface satisfaction.
+
 ### Resolver
 
 Maps a logical target to a provider endpoint. Resolution is separate from
