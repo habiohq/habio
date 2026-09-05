@@ -1,7 +1,7 @@
 // Package habio defines execution semantics for actions that cross into
 // physical systems.
 //
-// The public API is intentionally empty while the Action, Outcome,
-// Observation, Verification, and Provider contracts are developed through
-// RFCs and tested against real provider behavior.
+// Its API keeps immutable intent, individual execution attempts, physical
+// outcome knowledge, and software-path errors distinct. Integrations and
+// domain policy are supplied at the edges rather than embedded in core.
 package habio
