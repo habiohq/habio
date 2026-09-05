@@ -95,9 +95,10 @@ The ecosystem succeeds when it can grow without growing the core.
 ## Status
 
 Habio is in its foundation phase. This repository currently establishes project
-scope and design constraints; it does not yet expose a stable execution API.
-The first proof of concept will use Home Assistant to exercise light, climate,
-and media-player actions without adding those device types to the core.
+scope, experimental execution contracts, and a Home Assistant proof of concept.
+The public API is not yet stable. The proof exercises light, climate, and
+media-player actions without adding those device types to the core; see
+[docs/home-assistant-poc.md](docs/home-assistant-poc.md).
 
 ## License
 
