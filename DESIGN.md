@@ -146,7 +146,9 @@ data sources -> strategy -> typed Action -> Habio -> provider -> physical world
 Natural-language strategy authoring, simulation, portability, binding,
 conflicts, and marketplaces are valuable future layers. They must not enter the
 v0.1 execution core. AI may draft policy; a deterministic runtime should execute
-approved policy.
+approved policy. The accepted portability boundary is documented in
+[docs/strategy-contract.md](docs/strategy-contract.md); it deliberately does
+not select a runtime format.
 
 ## Explicit non-goals
 
